@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>String Library Function Javascript Code</h1>
+    <script>
+        // Javascript Length 
+        var text = "Bangladesh";
+        var len = text.length;
+        document.write("Number Of Character " + len + "</br>")
+
+        // userInput & Length System
+        var text1 = prompt("Enter Your Name:")
+        document.write("Number Of Character" + text1.length + "</br>")
+
+        // Text Character System
+        var text2 = "Tyfis";
+        document.write(text2.charAt(2) + "</br>")
+
+        // Text Upperchase System
+        var text3 = "Bangladesh";
+        text3 = text3.toLocaleUpperCase();
+        document.write(text3 + "</br>")
+
+        // Text Lowerchase System
+        var text4 = "BANGLADESG";
+        text4 = text4.toLowerCase();
+        document.write(text4 + "</br>")
+
+        // Text Concatination
+        var text5 = "Bangladesh";
+        var text6 = " is a beautiful Country";
+        document.write(text5.concat(text6)+"</br>")
+
+        // Slice System
+        var text7 = "Pakistan";
+        document.write(text7.slice(0,2)+"</br>")
+
+        // indexOf System
+        var text8 = "This is indexOf System in javascript";
+        document.write(text8.indexOf("System"))
+    </script>
+</body>
+
+</html>
